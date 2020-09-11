@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <div>
-        <Route component={Home} path="/" exakt />
+        <Route component={Home} path="/" exact />
         <Route component={NasaPhoto} path="/nasaphoto" />
       </div>
     </Router>
